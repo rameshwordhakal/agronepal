@@ -36,7 +36,8 @@ public class AboutusActivity extends AppCompatActivity {
         mBuilder.setContentIntent(resultPendingIntent);
         NotificationManager mNotificationManager =(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
-        mNotificationManager.notify(mId, mBuilder.build());
+        int mBuilderId=0;
+        mNotificationManager.notify(mBuilderId, mBuilder.build());
 
     }
 }
