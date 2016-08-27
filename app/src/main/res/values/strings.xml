@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Agro Nepal</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <array name="languages">
+        <item>Java</item>
+        <item>PHP</item>
+        <item>C#</item>
+        <item>Swift</item>
+        <item>.NET</item>
+        <item>C++</item>
+        <item>Javascript</item>
+
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

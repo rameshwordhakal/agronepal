@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/primarymenu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+    <group
+        android:id="@+id/secondarymenu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/foodcrop"
+            android:icon="@drawable/foodcrops"
+            android:title="Food Crops" />
+
+        <item
+            android:id="@+id/cashcrop"
+            android:icon="@drawable/cashcrops"
+            android:title="Cash Crops" />
+
+        <item
+            android:id="@+id/todayprice"
+            android:icon="@drawable/todayprice"
+            android:title="Today's Price" />
+
+    </group>
+
+    <group
+        android:id="@+id/extra"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+    </group>
+
+
+</menu>
